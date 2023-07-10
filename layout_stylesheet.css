@@ -21,7 +21,7 @@ body {
 
 .flex-item {
 	background-color: blue;
-	width: 100px;
+	width: 20%;
 	margin: 10px;
 	text-align: center;
 	line-height: 75px;
@@ -44,4 +44,9 @@ body {
 	text-align: center;
 	line-height: 100px;
 	font-size: 30px;
+}
+
+.greentext {
+	font-family: Arial, Helvetica, sans-serif;
+	color: green;
 }

@@ -20,24 +20,30 @@
         <title>My first site</title>
         <style type="text/css">
                 h1 {
-                    color: green;
+                    color: rgb(100, 0, 128);
                 }
         </style>
-      <link rel="stylesheet" href="mystylesheet.css" />
-
+      <!--<link rel="stylesheet" href="mystylesheet.css" />-->
+      <link rel="stylesheet" href="layout_stylesheet.css" />
     </head>
-    <body>
+    <body id="flexbox-demo-bg">
       <h1>My name is Kostiantyn</h1> 
       <p>I'm a cat person</p> 
       <p>This is the first paragraph</p>
       <p class="greentext">This is another paragraph, which is green and using a different font</p>
       <ul>
-        <li><a href="./content/About.html"><button>What to know more?</button></a></li><br>
-        <li><a href="loginPage.html"><button>Please login</button></a></li><br>
-        <li><a href="flexbox_sample.html"><button>Flexbox</button></a></li><br>
-        <li><a href="grid_sample.html"><button>Grid</button></a></li>
+        <li></li>
+        <li></li><br>
+        
+        
       </ul>
-       
+      <div class="flex-container">
+        <div class="flex-item">Navigation bar</div>
+        <div class="flex-item"><a href="./content/About.html"><button>What to know more?</button></a></div>
+        <div class="flex-item"><a href="loginPage.html"><button>Sign in</button></a></div>
+        <div class="flex-item"><a href="grid_sample.html"><button>Grid</button></a></div>
+        <div class="flex-item"><a href="flexbox_sample.html"><button>Flexbox</button></a></div>
+      </div> 
             
       <!-- <p><h2>First try</h2></p>
       <img src="../../images/start_page.jpg" alt="From Repo" style="width: 200px;height: 300px;">
